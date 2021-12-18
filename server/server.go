@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/rpc"
 
-	"github.com/fpcxm911/rpccalc/calc"
+	"github/fpcxm911/rpccalc/calc"
 )
 
 type Operation func(Number1, Number2 float64) float64
