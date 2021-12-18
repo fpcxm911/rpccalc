@@ -1,9 +1,10 @@
 package main
 
 import (
-	"gorpctest/calc"
 	"log"
 	"net/rpc"
+
+	"github.com/fpcxm911/rpccalc/calc"
 )
 
 type CalcClient struct {

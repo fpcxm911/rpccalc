@@ -1,11 +1,12 @@
 package main
 
 import (
-	"calc"
 	"errors"
 	"fmt"
 	"net/http"
 	"net/rpc"
+
+	"github.com/fpcxm911/rpccalc/calc"
 )
 
 type Operation func(Number1, Number2 float64) float64

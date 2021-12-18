@@ -7,8 +7,8 @@ const ServiceName = "CalcService"
 
 // ServiceInterface Ser计算器服务接口
 type ServiceInterface interface {
-	// CalTwoNumber 对两个数进行运算
-	CalcTwoNumbers(request Calc, reply *float64) error
+	// CalcTwoNumber CalTwoNumber 对两个数进行运算
+	CalcTwoNumber(request Calc, reply *float64) error
 	// GetOperators 获取所有支持的运算
 	GetOperators(request struct{}, reply *[]string) error
 }
