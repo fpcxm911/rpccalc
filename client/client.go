@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/rpc"
 
-	"github/fpcxm911/rpccalc/calc"
+	"github.com/fpcxm911/rpccalc/calc"
 )
 
 type CalcClient struct {
